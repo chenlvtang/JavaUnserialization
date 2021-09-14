@@ -10,3 +10,5 @@
 
 [RMI的利用](https://chenlvtang.top/2021/08/07/RMI的利用/)
 
+[JNDI注入の个人拙见](https://chenlvtang.top/2021/09/11/JNDI注入の个人拙见/)
+
