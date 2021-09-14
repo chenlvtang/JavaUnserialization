@@ -27,7 +27,7 @@ public class Demo6 {
         //序列化
         FileOutputStream file = new FileOutputStream("chenlvtang.bin");
         ObjectOutputStream se = new ObjectOutputStream(file);
-        se.writeObject(outerMap);//反序列化失败
+        se.writeObject(outerMap);
         se.close();
         //反序列化
         FileInputStream file1 = new FileInputStream("chenlvtang.bin");

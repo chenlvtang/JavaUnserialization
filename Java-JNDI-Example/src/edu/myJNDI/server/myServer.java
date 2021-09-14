@@ -8,12 +8,10 @@ import javax.naming.NamingException;
 import java.net.MalformedURLException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
 import java.util.Properties;
 
 public class myServer {
     public static void main(String[] args) throws RemoteException, MalformedURLException {
-        //实例化一个远程对象
         try {
             LocateRegistry.createRegistry(1099);
 

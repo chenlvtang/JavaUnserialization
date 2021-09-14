@@ -12,7 +12,8 @@ import java.rmi.RemoteException;
 public class myClient {
     public static void main(String[] args) throws MalformedURLException, NotBoundException, RemoteException {
         try {
-            String url = "rmi://127.0.0.1:1099/myRMI";
+            //String url = "rmi://127.0.0.1:1099/myRMI";
+            String url = "rmi://127.0.0.1:1099/test"; //for hacker
             Context ctx = new InitialContext();
             RemoteInterface myRemote = (RemoteInterface)ctx.lookup(url);
             String result = myRemote.sayHello("chenlvtang");
