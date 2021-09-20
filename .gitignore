@@ -2,3 +2,5 @@
 *.iml
 out/
 target/
+test/
+main/
