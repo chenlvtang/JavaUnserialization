@@ -14,5 +14,7 @@
 
 [JNDI注入の个人拙见](https://chenlvtang.top/2021/09/11/JNDI注入の个人拙见/)：Java-JNDI-Example、Java-JNDI-Exp_RMI
 
-[JDK8u191+等高版本下的JNDI注入](https://chenlvtang.top/2021/09/15/JDK8u191-等高版本下的JNDI注入/)：Java-JNDI-Exp_BeanFactory
+[JDK8u191+等高版本下的JNDI注入](https://chenlvtang.top/2021/09/15/JDK8u191-等高版本下的JNDI注入/)：Java-JNDI-Exp_BeanFactory 、Java-JNDI-Exp_LDAPHacker_CC3（Please Use JDK8+，because I used Base64 module in it QAQ）、
+
+Java-JNDI-Exp_LDAPClient_CC3（Please Use JDK7，because the CC3 payload I used in Server only suit for JDK7. ORZ）
 
