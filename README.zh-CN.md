@@ -20,6 +20,12 @@ PS: 文章只有中文版本
 
 + CommonsCollections3.1-Gadget
 
+### URLDNS-Gadget
+
+[Java反序列化之URLDNS](https://chenlvtang.top/2021/11/30/Java反序列化之URLDNS/)（分析和学习URLDNS-Gadget）:
+
++ URLDNS-Gadget
+
 ### RMI
 
 [关于Java中RMI的个人拙见](https://chenlvtang.top/2021/07/09/关于Java中RMI的个人拙见/)（第一次使用RMI）: 
