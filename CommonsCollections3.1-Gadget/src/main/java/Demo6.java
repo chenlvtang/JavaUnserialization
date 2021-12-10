@@ -23,7 +23,7 @@ public class Demo6 {
         };
         Transformer chain = new ChainedTransformer(transformers);
         Map innerMap = new HashMap();
-        //another way
+        //another way, must used "put" first then u can use entrySet().iterator().next()
         //innerMap.put("foo", "bar");
         Map outerMap = TransformedMap.decorate(innerMap, null, chain);
         //序列化
