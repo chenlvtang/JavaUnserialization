@@ -23,6 +23,8 @@ public class Demo6 {
         };
         Transformer chain = new ChainedTransformer(transformers);
         Map innerMap = new HashMap();
+        //another way
+        //innerMap.put("foo", "bar");
         Map outerMap = TransformedMap.decorate(innerMap, null, chain);
         //序列化
         FileOutputStream file = new FileOutputStream("chenlvtang.bin");
@@ -36,6 +38,8 @@ public class Demo6 {
         unse.close();
 
         outerMap_now.put("x","y");
-        //serverRead.transform("foobar");
+        //another way
+        //Map.Entry onlyElement = (Map.Entry) outerMap_now.entrySet().iterator().next();
+        //onlyElement.setValue("foobar");
     }
 }
