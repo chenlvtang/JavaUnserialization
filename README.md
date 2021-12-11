@@ -16,9 +16,13 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 
 + Java-Serialization-Example
 
-### CC3-Gadget
+### CC1-Gadget
 
-[Java反序列化之commons-collections-3.1漏洞分析](https://chenlvtang.top/2021/05/11/Java反序列化之commons-collections-3-1漏洞分析/)（Analyse and learn the CC3-Gadget）:
+[java反序列化之CC1其一](https://chenlvtang.top/2021/05/11/java反序列化之CC1其一/)（Analyse and learn the CC1-Gadget of TransformedMap）:
+
++ CommonsCollections3.1-Gadget
+
+[java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/java反序列化之CC1其二/)（Analyse and learn the CC1-Gadget of LazyMap）:
 
 + CommonsCollections3.1-Gadget
 

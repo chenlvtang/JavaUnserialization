@@ -14,9 +14,13 @@ PS: 文章只有中文版本
 
 + Java-Serialization-Example
 
-### CC3-Gadget
+### CC1-Gadget
 
-[Java反序列化之commons-collections-3.1漏洞分析](https://chenlvtang.top/2021/05/11/Java反序列化之commons-collections-3-1漏洞分析/)（分析和学习CC3-Gadget）:
+[Java反序列化之commons-collections-3.1漏洞分析](https://chenlvtang.top/2021/05/11/Java反序列化之commons-collections-3-1漏洞分析/)（分析和学习TransformedMap下的CC1-Gadget）:
+
++ CommonsCollections3.1-Gadget
+
+[java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/java反序列化之CC1其二/)（分析和学习LazyMap下的CC1-Gadget）:
 
 + CommonsCollections3.1-Gadget
 
