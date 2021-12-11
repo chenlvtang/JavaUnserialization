@@ -1,7 +1,7 @@
+package demo.makeChain;
+
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.*;
-
-import java.lang.reflect.Method;
 
 
 public class Demo4{

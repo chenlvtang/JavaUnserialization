@@ -1,3 +1,5 @@
+package demo.makeChain;
+
 import org.apache.commons.collections.functors.InvokerTransformer;
 
 public class Learn1 {

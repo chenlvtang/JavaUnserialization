@@ -1,7 +1,6 @@
-import org.apache.commons.collections.functors.InvokerTransformer;
+package demo.makeChain;
 
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import org.apache.commons.collections.functors.InvokerTransformer;
 
 public class Demo1 {
     public static void main(String[] args) throws Exception{

