@@ -20,11 +20,11 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 
 [java反序列化之CC1其一](https://chenlvtang.top/2021/05/11/java反序列化之CC1其一/)（Analyse and learn the CC1-Gadget of TransformedMap）:
 
-+ CommonsCollections3.1-Gadget
++ CommonsCollections1-Gadget
 
 [java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/java反序列化之CC1其二/)（Analyse and learn the CC1-Gadget of LazyMap）:
 
-+ CommonsCollections3.1-Gadget
++ CommonsCollections1-Gadget
 
 ### URLDNS-Gadget
 
