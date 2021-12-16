@@ -11,8 +11,13 @@ PS: 文章只有中文版本
 [Java反序列化の初见](https://chenlvtang.top/2021/05/10/Java反序列化の初见/)（第一次使用Java的反射机制和序列化）:
 
 + Java-Reflection_RCE-Example
-
 + Java-Serialization-Example
+
+### URLDNS-Gadget
+
+[Java反序列化之URLDNS](https://chenlvtang.top/2021/11/30/Java反序列化之URLDNS/)（分析和学习URLDNS-Gadget）:
+
++ URLDNS-Gadget
 
 ### CC1-Gadget
 
@@ -24,11 +29,11 @@ PS: 文章只有中文版本
 
 + CommonsCollections1-Gadget
 
-### URLDNS-Gadget
+### CC2-Gadget
 
-[Java反序列化之URLDNS](https://chenlvtang.top/2021/11/30/Java反序列化之URLDNS/)（分析和学习URLDNS-Gadget）:
+[Java反序列化之CC2](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（分析和学习CC2-Gadget）:
 
-+ URLDNS-Gadget
++ CommonsCollections2-Gadget
 
 ### RMI
 
@@ -38,7 +43,7 @@ PS: 文章只有中文版本
 
 [RMI的利用](https://chenlvtang.top/2021/08/07/RMI的利用/) (利用RMI和CC3-Gadget攻击)：
 
-+ RMI-Exp_CC3 (使用的Payload值适用于JDK7)
++ RMI-Exp_CC3 (使用的Payload只适用于JDK7)
 
 ### JNDI
 
