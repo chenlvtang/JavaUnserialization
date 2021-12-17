@@ -39,7 +39,7 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 
 ### CC3-Gadget
 
-[Java反序列化之CC3](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（Analyse and learn the CC3-Gadget）:
+[Java反序列化之CC3](https://chenlvtang.top/2021/12/17/Java反序列化之CC3/)（Analyse and learn the CC3-Gadget）:
 
 + CommonsCollections3-Gadget 
 

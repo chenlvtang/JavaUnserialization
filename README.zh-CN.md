@@ -37,7 +37,7 @@ PS: 文章只有中文版本
 
 ### CC3-Gadget
 
-[Java反序列化之CC3](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（分析和学习CC3-Gadget）:
+[Java反序列化之CC3](https://chenlvtang.top/2021/12/17/Java反序列化之CC3/)（分析和学习CC3-Gadget）:
 
 + CommonsCollections3-Gadget 
 
