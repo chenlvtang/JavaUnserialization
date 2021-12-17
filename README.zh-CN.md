@@ -35,6 +35,12 @@ PS: 文章只有中文版本
 
 + CommonsCollections2-Gadget
 
+### CC3-Gadget
+
+[Java反序列化之CC3](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（分析和学习CC3-Gadget）:
+
++ CommonsCollections3-Gadget 
+
 ### RMI
 
 [关于Java中RMI的个人拙见](https://chenlvtang.top/2021/07/09/关于Java中RMI的个人拙见/)（第一次使用RMI）: 
