@@ -23,17 +23,17 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 
 ### CC1-Gadget
 
-[java反序列化之CC1其一](https://chenlvtang.top/2021/05/11/java反序列化之CC1其一/)（Analyse and learn the CC1-Gadget of TransformedMap）:
+[Java反序列化之CC1其一](https://chenlvtang.top/2021/05/11/Java反序列化之CC1其一/)（Analyse and learn the CC1-Gadget of TransformedMap）:
 
 + CommonsCollections1-Gadget
 
-[java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/java反序列化之CC1其二/)（Analyse and learn the CC1-Gadget of LazyMap）:
+[Java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/Java反序列化之CC1其二/)（Analyse and learn the CC1-Gadget of LazyMap）:
 
 + CommonsCollections1-Gadget
 
 ### CC2-Gadget
 
-[Java反序列化之CC2](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（Analyse and learn the CC2-Gadget）:
+[Java反序列化之CC2](https://chenlvtang.top/2021/12/11/Java反序列化之CC2/)（Analyse and learn the CC2-Gadget）:
 
 + CommonsCollections2-Gadget 
 
@@ -42,6 +42,12 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 [Java反序列化之CC3](https://chenlvtang.top/2021/12/17/Java反序列化之CC3/)（Analyse and learn the CC3-Gadget）:
 
 + CommonsCollections3-Gadget 
+
+### CC4-Gadget
+
+[Java反序列化之CC4](https://chenlvtang.top/2021/12/19/Java反序列化之CC4/)（Analyse and learn the CC4-Gadget）:
+
++ CommonsCollections4-Gadget 
 
 ### RMI
 

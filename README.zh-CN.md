@@ -21,17 +21,17 @@ PS: 文章只有中文版本
 
 ### CC1-Gadget
 
-[Java反序列化之commons-collections-3.1漏洞分析](https://chenlvtang.top/2021/05/11/Java反序列化之commons-collections-3-1漏洞分析/)（分析和学习TransformedMap下的CC1-Gadget）:
+[Java反序列化之CC1其一](https://chenlvtang.top/2021/05/11/Java反序列化之CC1其一/)（分析和学习TransformedMap下的CC1-Gadget）:
 
 + CommonsCollections1-Gadget
 
-[java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/java反序列化之CC1其二/)（分析和学习LazyMap下的CC1-Gadget）:
+[Java反序列化之CC1其二](https://chenlvtang.top/2021/12/08/Java反序列化之CC1其二/)（分析和学习LazyMap下的CC1-Gadget）:
 
 + CommonsCollections1-Gadget
 
 ### CC2-Gadget
 
-[Java反序列化之CC2](https://chenlvtang.top/2021/12/11/java反序列化之CC2/)（分析和学习CC2-Gadget）:
+[Java反序列化之CC2](https://chenlvtang.top/2021/12/11/Java反序列化之CC2/)（分析和学习CC2-Gadget）:
 
 + CommonsCollections2-Gadget
 
@@ -40,6 +40,12 @@ PS: 文章只有中文版本
 [Java反序列化之CC3](https://chenlvtang.top/2021/12/17/Java反序列化之CC3/)（分析和学习CC3-Gadget）:
 
 + CommonsCollections3-Gadget 
+
+### CC4-Gadget
+
+[Java反序列化之CC4](https://chenlvtang.top/2021/12/19/Java反序列化之CC4/)（分析和学习CC4-Gadget）:
+
++ CommonsCollections4-Gadget 
 
 ### RMI
 
