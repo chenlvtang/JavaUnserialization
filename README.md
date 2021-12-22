@@ -49,6 +49,13 @@ PS: The Articles only have Chinese Version. But u can still learn from the demo.
 
 + CommonsCollections4-Gadget 
 
+### CC5&&CC6-Gadget
+
+[Java反序列化之CC5与CC6](https://chenlvtang.top/2021/12/20/Java反序列化之CC5与CC6/)（Analyse and learn the CC5,CC6-Gadget）:
+
++ CommonsCollections5-Gadget
++ CommonsCollections6-Gadget
+
 ### RMI
 
 [关于Java中RMI的个人拙见](https://chenlvtang.top/2021/07/09/关于Java中RMI的个人拙见/)（The frist time to use RMI）: 
